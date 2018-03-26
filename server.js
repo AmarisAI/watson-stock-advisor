@@ -14,6 +14,8 @@
  * the License.
  */
 
+require("metrics-tracker-client").track();
+
 const express        = require('express');
 const app            = express();
 const bodyParser     = require('body-parser');

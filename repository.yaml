@@ -1,0 +1,9 @@
+id: https://github.com/IBM/watson-stock-advisor
+runtimes:
+  - Cloud Foundry
+services:
+  - Discovery
+  - Cloudant NoSQL DB
+event_id: web
+event_organizer: dev-journeys
+language: nodejs
